@@ -161,6 +161,9 @@ fun SkillCard(skill: Skill) {
             val progress by animateFloatAsState(
                 targetValue = skill.proficiency,
                 label = "skill-progress"
+
+
+                
             )
             
             LinearProgressIndicator(
