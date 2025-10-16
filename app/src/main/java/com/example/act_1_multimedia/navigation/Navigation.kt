@@ -20,7 +20,7 @@ import com.example.act_1_multimedia.screens.SkillsScreen
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "home") {
+    NavHost(navController = navController, startDestination = "main") {
         composable("main") { MainScreen(navController) }
         composable("activity1") { Activity1Screen(navController) }
         composable("login") { LoginScreen(navController) }

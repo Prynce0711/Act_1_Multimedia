@@ -2,4 +2,10 @@ package com.example.act_1_multimedia.models
 
 data class User(val username: String, val password: String)
 
-val users = mutableListOf<User>()
+val users = mutableListOf<User>(
+
+    User("Prynce", "Prynce"),
+    User("Carlo", "Carlo"),
+    User("Rovic", "Rovic")
+
+)

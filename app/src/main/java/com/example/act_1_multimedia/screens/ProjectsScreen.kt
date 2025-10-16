@@ -80,15 +80,25 @@ fun ProjectsScreen(navController: NavController) {
                     "A modern Android app built with Jetpack Compose showcasing my skills, projects, and experience. Features Material 3 design, smooth animations, and responsive layouts.",
                     listOf("Kotlin", "Jetpack Compose", "Material 3", "Android"),
                     Icons.Default.Android,
-                    "https://github.com/yourusername/portfolio-app",
+                    "https://github.com/Prynce0711/Act_1_Multimedia",
                     "2025"
+                ),
+
+                Project (
+                    "My Portfolio",
+                    "Vite",
+                    listOf("Vite","Html","Css","JavaScript"),
+                    Icons.Default.Web,
+                    "https://github.com/Prynce0711/MyPortfolio",
+                    "2025"
+
                 ),
                 Project(
                     "E-Voting System",
                     "A secure and anonymous voting system with blockchain-based verification. Includes user authentication, real-time vote counting, and result visualization.",
-                    listOf("React", "Node.js", "MongoDB", "Blockchain"),
+                    listOf("Html", "JavaScript","mySql"),
                     Icons.Default.Web,
-                    "https://github.com/yourusername/voting-system",
+                    "https://github.com/Prynce0711/PrynceIndiv",
                     "2024"
                 ),
                 Project(
@@ -100,13 +110,16 @@ fun ProjectsScreen(navController: NavController) {
                     "2024"
                 ),
                 Project(
-                    "Barcie Shop",
-                    "An e-commerce mobile application with features like product catalog, cart management, secure payments, and order tracking.",
-                    listOf("Flutter", "Firebase", "Stripe", "GetX"),
+                    "Barcie International Center",
+                    "A comprehensive PHP-based hotel management system for Barasoain Center for Innovative Education (BarCIE) - LCUP's Laboratory Facility for BS Tourism Management.",
+                    listOf("Bootstrap", "HTML", "CSS", "JavaScript","Tailwind","Php","mySql,"),
                     Icons.Default.ShoppingCart,
-                    "https://github.com/yourusername/barcie-shop",
-                    "2023"
-                )
+                    "https://barcie.safehub-lcup.uk/",
+                    "2025"
+
+                ),
+
+
             )
             items(projects) { project ->
                 ProjectCard(project)
@@ -176,7 +189,7 @@ fun ProjectCard(project: Project) {
                 modifier = Modifier.align(Alignment.End)
             ) {
                 Icon(Icons.Default.Link, contentDescription = null)
-                Spacer(modifier = Modifier.padding(4.dp))
+                Spacer(modifier = Modifier.padding(5.dp))
                 Text("View Project")
             }
         }
