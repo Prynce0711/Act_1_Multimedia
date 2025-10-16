@@ -72,8 +72,8 @@ fun ExperienceScreen(navController: NavController) {
             Experience(
                 "Sales Agent",
                 "Converge ICT Solutions",
-                "Metro Manila",
-                "Jan 2025 - Present",
+                "Bulacan",
+                "July 2023 - Present",
                 listOf(
                     "Successfully achieved 120% of monthly sales targets",
                     "Managed a portfolio of 100+ active clients",
@@ -83,9 +83,9 @@ fun ExperienceScreen(navController: NavController) {
             ),
             Experience(
                 "Assistant Merchandiser",
-                "Retail Company",
+                "Pandayan Bookshop",
                 "Quezon City",
-                "Jun 2024 - Dec 2024",
+                "June 7 2025 - June 26 2025",
                 listOf(
                     "Managed inventory and stock levels for multiple product lines",
                     "Coordinated with suppliers for timely deliveries",
@@ -95,9 +95,9 @@ fun ExperienceScreen(navController: NavController) {
             ),
             Experience(
                 "Service Crew",
-                "Fast Food Chain",
-                "Manila",
-                "Jan 2024 - May 2024",
+                "Greenwich",
+                "Robinson Place Malolos",
+                "June 2023 - August 2023",
                 listOf(
                     "Provided excellent customer service in a fast-paced environment",
                     "Maintained cleanliness and safety standards",

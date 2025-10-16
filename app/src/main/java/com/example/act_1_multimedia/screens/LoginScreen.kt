@@ -83,6 +83,8 @@ fun LoginScreen(navController: NavController) {
                 modifier = Modifier.fillMaxWidth()
             )
             Spacer(modifier = Modifier.height(16.dp))
+
+
             Button(
                 onClick = {
                     val user = users.find { it.username == username && it.password == password }
@@ -105,6 +107,8 @@ fun LoginScreen(navController: NavController) {
             }
             TextButton(onClick = { navController.navigate("change_password") }) {
                 Text("Forgot Password?")
+
+
             }
         }
     }
